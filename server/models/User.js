@@ -5,13 +5,13 @@ const userSchema = new mongoose.Schema({
         type : String ,
           required : true, 
           unique: true ,
-        }
+        },
 
     fullName : { 
            type : String ,
           required : true, 
          
-        }
+        },
 
 
         password: {
@@ -19,13 +19,13 @@ const userSchema = new mongoose.Schema({
           required : true, 
          
           minlength : 6
-        }
+        },
 
         profilePic: {
            type : String ,
            default : ""
         
-        }
+        },
 
 
          bio: {
